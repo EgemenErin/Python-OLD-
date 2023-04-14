@@ -1,0 +1,5 @@
+height = input("enter your height: ")
+weight = input("enter your weight: ")
+bmi = (float(weight) / (float(height)*float(height)))
+print(str(weight) + " ÷ " + "(" + str(height) + " x " + str(height) + ")" + " = " + str(bmi))
+print(bmi)
